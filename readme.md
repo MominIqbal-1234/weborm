@@ -12,6 +12,13 @@ pip install django
 git clone https://github.com/MominIqbal-1234/weborm
 cd weborm
 ```
+
+## Configrations
+```
+python manage.py makemigrations weborm
+python manage.py migrate weborm
+```
+
 ## Run
 ```
 python db_operation.py
